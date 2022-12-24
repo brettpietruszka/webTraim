@@ -12,20 +12,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
         <script src="gl-matrix-min.js" defer></script>
+        <script src="shapes.js" defer></script>
         <script src="main.js" defer></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>
-            WebGL!!!
-        </h1>
 
-        <canvas width="500" height="500">
+        <!-- <canvas width="500" height="500"></canvas> -->
 
-        </canvas>
-        
-        <script src="" async defer></script>
+        <canvas></canvas>
+        <script> 
+            const _c = document.getElementsByTagName('canvas')[0];
+            _c.width = window.innerWidth;
+            _c.height = window.innerHeight;
+        </script>
+        <!-- <script src="" async defer></script> -->
     </body>
 </html>

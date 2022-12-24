@@ -1,2 +1,3 @@
 # webTraim
-Personal project that simulates a 3D FPS game in order to create a website that helps FPS players train their aim in an extremely efficient and effective way. Currently learning webGL through a tutorial process.
+This project was halted and being converted into glTraim.
+A newer webGL version is going to be created using Unity WebGL Build.
